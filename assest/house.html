@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/dc210aff98.js" crossorigin="anonymous"></script>
+    <title>house</title>
+</head>
+<body>
+    <nav id="navbar" class="navbar-white">
+        <a href="../index.html"><img src="./imagenes/Staybnb-img/logo-red.png" class="logo"></a>
+        
+        <ul class="nav-links">
+            <li><a href="./listing.html" class="active">Lugares Populares</a></li>
+            <li><a href="./house.html">Paquetes Especiales</a></li>
+        </ul>
+        <a href="#" class="register-btn">Register now</a>
+        <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+    </nav>
+    <div class="house-details">
+        <div class="house-title">
+            <h1>Wenge house</h1>
+            <div class="row">
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span>245 revisiones</span>
+                </div>
+                <div>
+                    <p>Ubicacion: San Franciso, United States</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="gallery-img-1"><img src="./imagenes/Staybnb-img/house-1.png"></div>
+            <div><img src="./imagenes/Staybnb-img/house-2.png"></div>
+            <div><img src="./imagenes/Staybnb-img/house-3.png"></div>
+            <div><img src="./imagenes/Staybnb-img/house-4.png"></div>
+            <div><img src="./imagenes/Staybnb-img/house-5.png"></div>
+        </div>
+        <div class="small-details">
+            <h2>Organizado por Brandon</h2>
+            <p>2 Huespedes &nbsp; &nbsp; 2 camas &nbsp; &nbsp; 1 bano </p>
+            <h4>$ 100 / Dia</h4>
+        </div>
+        <hr class="line">
+        <form class="check-form">
+            <div>
+                <label>Check-in</label>
+                <input type=" text" placeholder="add date">
+            </div>
+            <div>
+                <label>Check-out</label>
+                <input type=" text" placeholder="add date">
+            </div>
+            <div class="guest-field">
+                <label>guest</label>
+                <input type=" text" placeholder="2 guest">
+            </div>
+            <button type="submit">Revisar Disponibilidad</button>
+        </form>
+        <ul class="details-list">
+            <li><i class="fa-solid fa-house"></i>entire house
+                <span>you will have the entire flat for you.</span>
+            </li>
+            <li><i class="fa-solid fa-paint-roller"></i>Enhanced clean
+                <span>this host has committed to staybnb's cleaning process.</span>
+            </li>
+            <li><i class="fa-solid fa-location-dot"></i>great location
+                <span>90% of recent guest gave the location a 5 star rating.</span>
+            </li>
+            <li><i class="fa-solid fa-heart"></i>great check-in experience
+                <span>100% of recent guest gave the check-in process a 5 star rating.</span>
+            </li>
+        </ul>
+        <hr class="line">
+        <p class="home-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio natus doloribus architecto accusamus rem nobis labore consequatur harum numquam eius consequuntur illum, quos reprehenderit vel eos enim tempora possimus quae.</p>
+        <hr class="line">
+        <div class="map">
+            <h3>Location on the map</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d977750.0671195923!2d-89.16160500205103!3d13.865226723638408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f7b4b5c050e4c15%3A0x589dc5cabc0a7553!2sTekapa%20Hotel!5e0!3m2!1sen!2ssv!4v1685569563286!5m2!1sen!2ssv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <b>Alegria, San Miguel, El Salvador </b>
+            <p>Es como un hogar lejos de casa.</p>
+        </div>
+        <hr class="line">
+
+        <div class="host">
+            <img src="./imagenes/Staybnb-img/host.png">
+            <div>
+                <h2>Posteado por Juan</h2>
+                <p><span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </span>&nbsp; &nbsp; 245 vistas &nbsp; &nbsp; Tasa de respuesta 100% &nbsp; &nbsp; Tiempo promedio: 60 min </p>
+            </div>
+        </div>
+        <a href="#" class="contact-host">Contact Host</a>
+    </div>
+    <div class="container">
+        <div class="footer">
+            <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <hr>
+            <p>Copyright © 2023, Ernesto Cartagena</p>
+        </div>
+    </div>
+    <script>
+        var navbar = document.getElementById("navbar")
+        function togglebtn(){
+            navbar.classList.toggle("hidemenu")
+        }
+    </script>
+</body>
+</html>
